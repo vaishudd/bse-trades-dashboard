@@ -1,0 +1,12 @@
+{
+  "name": "bse-trades-dashboard",
+  "private": true,
+  "description": "Long-running BSE pull -> background job -> MongoDB -> SSE -> React dashboard",
+  "scripts": {
+    "install:all": "npm install --prefix mock-bse && npm install --prefix server && npm install --prefix client",
+    "mock": "npm start --prefix mock-bse",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "test": "npm test --prefix mock-bse && npm test --prefix server"
+  }
+}

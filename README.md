@@ -93,7 +93,7 @@ bse-trades-dashboard/
 │   └── server.js              starts everything
 ├── mock-bse/                  Simulated BSE API (GET /getTrades)
 │   ├── data/ routes/ tests/ server.js
-├── docs/                      architecture.md, video-walkthrough.md, interview-questions.md
+├── docs/                      architecture.md, video-walkthrough.md
 ├── README.md  .gitignore  package.json
 ```
 

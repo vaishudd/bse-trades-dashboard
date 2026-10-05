@@ -1,6 +1,6 @@
 # BSE Trades Dashboard
 
-A small full-stack project that shows how to handle a **very slow external API (up to 15 minutes)** behind a network that **kills any HTTP connection open for more than 30 seconds**.
+A full-stack trade processing dashboard demonstrating asynchronous background jobs, MongoDB persistence, and real-time updates using Server-Sent Events (SSE), that shows how to handle a **very slow external API (up to 15 minutes)** behind a network that **kills any HTTP connection open for more than 30 seconds**.
 
 > **Long-running external API → background job → MongoDB → real-time event (SSE) → dashboard update**
 
@@ -146,7 +146,7 @@ cp server/.env.example server/.env
 
 ## 10. How to run the project
 
-You need **four terminals** (one per long-running process), all from the project root. Details for each step follow in sections 11–14.
+You need **three terminals** (one per long-running process), all from the project root. Details for each step follow in sections 11–14.
 
 ```bash
 # Terminal 1: mock BSE

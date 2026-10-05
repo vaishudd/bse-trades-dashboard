@@ -5,6 +5,15 @@ A full-stack trade processing dashboard demonstrating asynchronous background jo
 > **Long-running external API → background job → MongoDB → real-time event (SSE) → dashboard update**
 
 ---
+## Dashboard Preview
+
+### Trade Dashboard
+
+![Trade Dashboard](docs/dashboard.png)
+
+### Asynchronous Pull in Progress
+
+![Pull in Progress](docs/pull-in-progress.png)
 
 ## 1. Project overview
 
